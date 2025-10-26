@@ -29,16 +29,13 @@ Easily add, edit, delete, and manage your daily tasks — with auto-save using `
 
 ## 📂 Folder Structure
 
-```
-
+ 
 project-39-Todo-App/
 │
 ├── index.html
 ├── style.css
 └── app.js
-
-````
-
+ 
 ---
 
 ## ⚙️ How to Use
