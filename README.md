@@ -26,17 +26,7 @@ Easily add, edit, delete, and manage your daily tasks — with auto-save using `
 - **LocalStorage API** – for persistent data  
 
 ---
-
-## 📂 Folder Structure
-
  
-project-39-Todo-App/
-│
-├── index.html
-├── style.css
-└── app.js
- 
----
 
 ## ⚙️ How to Use
 
