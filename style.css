@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  color: #942cfc;
+  font-size: xx-large;
+  margin-top: 10px;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(135deg, #6c87ff 0%, #942cfc 100%);
+}
+.main {
+  min-height: 90vh;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  border-radius: 20px;
+  overflow-y: auto;
+}
+.box {
+  max-width: 600px;
+  width: 100vw;
+  height: auto;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #942cfc;
+}
+.box input {
+  height: 35px;
+  width: 50%;
+  padding-left: 15px;
+  border: 1px solid #942cfc;
+  border-bottom-left-radius: 18px;
+  border-top-left-radius: 18px;
+  outline: #942cfc;
+  font-size: 14px;
+}
+.btn1 {
+  display: flex;
+  padding: 9px 15px;
+  background-color: #942cfc;
+  color: white;
+  border: none;
+  border-right: 1px solid white;
+}
+.btn2 {
+  display: flex;
+  padding: 9px 15px;
+  background-color: #942cfc;
+  color: white;
+  border: none;
+  border-bottom-right-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.list {
+  max-width: 600px;
+  width: 100%;
+  list-style-type: none;
+}
+.list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #942cfc;
+  height: 50px;
+}
+.box1 {
+  width: 70%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.box2 {
+  width: 30%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+#tik {
+  border: none;
+  height: 20px;
+  width: 20px;
+}
+#edit {
+  border: none;
+  height: 40px;
+  width: 70%;
+  outline: none;
+  color: #000;
+  background-color: white;
+  font-size: 14px;
+}
+.box2 button {
+  padding: 5px 20px;
+  background-color: #942cfc;
+  color: white;
+  border: none;
+}
+.box1 span {
+  color: #942cfc;
+}
+.line {
+  text-decoration: line-through;
+  color: #942cfc;
+}
+@media (max-width: 600px) {
+  .box input {
+    width: 55%;
+  }
+  .btn1 {
+    padding: 10px 5px;
+  }
+  .btn2 {
+    padding: 10px 5px;
+  }
+  .box2 button {
+    padding: 5px 10px;
+  }
+  #tik {
+    padding-left: 5px;
+  }
+  #edit {
+    padding: 5px;
+  }
+}
